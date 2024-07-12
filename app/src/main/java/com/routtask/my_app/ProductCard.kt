@@ -70,8 +70,6 @@ fun ProductCard(products: Product) {
                 )
             }
         }
-        Spacer(modifier = Modifier.height(4.dp))
-
         Column(
             modifier = Modifier
                 .weight(0.5f)
