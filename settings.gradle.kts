@@ -16,9 +16,12 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
     }
 }
 
+
 rootProject.name = "RoutTask"
 include(":app")
- 
+include(":data")
+include(":domain")
